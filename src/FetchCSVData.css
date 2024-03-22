@@ -1,0 +1,55 @@
+
+#gameButton{
+  background-color: #6710f2;
+  border: 2px solid #ff5100;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#gameButton:hover {
+  background-color: #ff5100;
+}
+
+#gameButton:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  #gameButton-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+#playerCountInput{
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 10px 20px;
+  border: 11px solid rgba(0,0,255,1);
+  -webkit-border-radius: 21px;
+  border-radius: 21px;
+  font: normal 20px/normal Arial Black, Gadget, sans-serif;
+  color: rgba(0,0,255,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: rgba(255,255,0,1)
+}
+
+::placeholder{
+  color: rgba(0,0,255,1);
+}
